@@ -1,6 +1,6 @@
 # Configuration
 
-설정의 중요 구성요소는 Zone, NodePool, Monitor이다.
+설정의 중요 구성요소는 `Zone`, `NodePool`, `Monitor`이다.
 
 - **Zone** - 개별 도메인 서비스 구성이다.
 - **NodePool** - 서버 집합으로 가용 자원풀을 의미한다.

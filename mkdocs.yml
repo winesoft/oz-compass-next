@@ -11,6 +11,7 @@ nav:
     - Overview: index.md
     - User Guide:
         - Configuration: userguide/config.md        
+        - Web Console: userguide/webconsole.md
     - About:
         - Release Notes: about/releasenotes.md
         - License: about/license.md
