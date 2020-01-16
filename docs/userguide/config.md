@@ -77,7 +77,7 @@ NodePool은 동일한 목적을 가진 서버들의 집합을 가리킨다. 관�
 | `Name`             | 이름                                                         | (필수)                                            |
 | `Description`      | 설명                                                         | (옵션)                                            |
 | `LoadBalacingMode` | 로드 밸런싱 모드                                             | RoundRobin                                        |
-| `MinimumMembers`   | 최소 구성 멤버 설정. 가용한 멤버 수가 `count` 미만인 경우 `action`을 수행한다. | Enabled: true<br />Count: 1<br />Action: failover |
+| `MinimumMembers`   | 최소 구성 멤버 설정<br />가용한 멤버 수가 `count` 미만인 경우 `action`을 수행한다. | Enabled: true<br />Count: 1<br />Action: failover |
 | `Members`          | 구성 서버 목록                                               | Enabled: true<br />Address: (필수)                |
 | `Monitors`         | 감시 모니터                                                  | (옵션)                                            |
 
