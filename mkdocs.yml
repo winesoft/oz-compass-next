@@ -9,15 +9,8 @@ markdown_extensions:
 
 nav:
     - Overview: index.md
-    - Usecases:
-        - Image Server : usecases/image.md
-        - API Server: usecases/api.md
     - User Guide:
-        - Web API: userguide/webapi.md
-        - Configuration: userguide/config.md
-        - Mapper: userguide/mapper.md
-        - View: userguide/view.md
-        - Operations: userguide/operations.md
+        - Configuration: userguide/config.md        
     - About:
         - Release Notes: about/releasenotes.md
         - License: about/license.md
