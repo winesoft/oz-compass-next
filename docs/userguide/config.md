@@ -23,7 +23,7 @@
 # /etc/compass/compass.conf
 
 {
-  "Version: "2019-12-23",
+  "Version": "2019-12-23",
   "NodePools" : [ ],
   "Zones" : [ ],
   "Monitors" : [ ],
