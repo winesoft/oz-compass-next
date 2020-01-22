@@ -20,7 +20,7 @@
 설정 파일 경로는 `/etc/compass/compass.conf` 이다. JSON형식이며 아래와 같은 구조를 가진다.
 
 ```xml
-# /etc/compass.conf
+# /etc/compass/compass.conf
 
 {
   "Version: "2019-12-23",
