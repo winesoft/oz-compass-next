@@ -98,6 +98,9 @@ Zone을 통해 도메인 서비스를 구성한다. 하나의 Zone은 여러 개
 
 위와 같이 구성하면 alice.foo.com과 bob.foo.com은 foo.com의 설정을 상속 받는다. 예를 들어 foo.com의 `DefaultTtl` 의 값을 변경하면 상속받은 모든 Zone은 이 값을 사용한다. 상속받는 속성은 위 표를 참고한다.
 
+-  상호 상속은 무시된다.
+-  상속 받을 `Zone` 이 없다면 해당 `Zone`은 비활성화(`Enabled: false`) 된다.
+
 
 
 ### Zone - 동적 서브 도메인
