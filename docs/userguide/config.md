@@ -118,8 +118,6 @@ Zone을 통해 도메인 서비스를 구성한다. 하나의 Zone은 여러 개
 
 ![](compass_03.png)
 
-`DynamicDomains`이 활성화된 Zone은 다른 Zone과 상속 관계를 맺을 수 없음을 주의한다.
-
 
 
 ## NodePool
